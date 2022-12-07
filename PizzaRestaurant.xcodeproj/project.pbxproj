@@ -13,6 +13,8 @@
 		89AD2F2B29408E28004033D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89AD2F2A29408E28004033D0 /* Preview Assets.xcassets */; };
 		89AD2F2D29408E28004033D0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AD2F2C29408E28004033D0 /* Persistence.swift */; };
 		89AD2F3029408E28004033D0 /* PizzaRestaurant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89AD2F2E29408E28004033D0 /* PizzaRestaurant.xcdatamodeld */; };
+		89AD2F382940917A004033D0 /* Order+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AD2F362940917A004033D0 /* Order+CoreDataClass.swift */; };
+		89AD2F392940917A004033D0 /* Order+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AD2F372940917A004033D0 /* Order+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		89AD2F2A29408E28004033D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89AD2F2C29408E28004033D0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		89AD2F2F29408E28004033D0 /* PizzaRestaurant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PizzaRestaurant.xcdatamodel; sourceTree = "<group>"; };
+		89AD2F362940917A004033D0 /* Order+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataClass.swift"; sourceTree = "<group>"; };
+		89AD2F372940917A004033D0 /* Order+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,8 @@
 		89AD2F1729408E26004033D0 = {
 			isa = PBXGroup;
 			children = (
+				89AD2F362940917A004033D0 /* Order+CoreDataClass.swift */,
+				89AD2F372940917A004033D0 /* Order+CoreDataProperties.swift */,
 				89AD2F2229408E26004033D0 /* PizzaRestaurant */,
 				89AD2F2129408E26004033D0 /* Products */,
 			);
@@ -143,9 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89AD2F392940917A004033D0 /* Order+CoreDataProperties.swift in Sources */,
 				89AD2F2D29408E28004033D0 /* Persistence.swift in Sources */,
 				89AD2F2629408E26004033D0 /* ContentView.swift in Sources */,
 				89AD2F2429408E26004033D0 /* PizzaRestaurantApp.swift in Sources */,
+				89AD2F382940917A004033D0 /* Order+CoreDataClass.swift in Sources */,
 				89AD2F3029408E28004033D0 /* PizzaRestaurant.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
